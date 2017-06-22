@@ -53,7 +53,7 @@ class AboutMe extends Component {
             ]
         });
         content.push({
-            title: "Past Experience",
+            title: "Professional Experience",
             entries: [
                 {
                     title: "Dialogue Technologies - Clinic Management System [May 2017]",
@@ -77,7 +77,7 @@ class AboutMe extends Component {
             ]
         });
         content.push({
-            title: "Other Professional Experience",
+            title: "Other Experience",
             entries: [
                 {
                     title: "Merveille Orient [Jul 2007 - Aug 2010]",
