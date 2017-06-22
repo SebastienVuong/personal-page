@@ -1,0 +1,43 @@
+body {
+    /*background-image: url('http://i.imgur.com/xsKmyIU.jpg');*/
+    background-image: url('https://scontent.fymy1-1.fna.fbcdn.net/v/t31.0-8/11130515_10153377355858832_8176979310869018439_o.jpg?oh=de56bba9448dcea5f6bc68480f7a2eda&oe=59D9C8EC');
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    /*max-width: 950px;*/
+    overflow-x: hidden;
+    /*background-position: center center;*/
+    background-size: cover;
+    margin: 0;
+    padding-left: 4vw;
+    padding-right: 10vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.overlay {
+    position: fixed;
+    z-index: -10;
+    min-height: 100vh;
+    margin-left: -4vw;
+    margin-right: -10vw;
+    padding-right: 10vw;
+    width: 100vw;
+    height: 100%;
+    background-color: white;
+    opacity: 0.4;
+}
+
+.fb-like {
+    padding: 2vw;
+    padding-top: 4vw;
+}
+
+#root {
+    z-index: 0;
+    /*position: absolute;*/
+    padding-top: 2vw;
+    /*top: 0;*/
+    /*left: 0;*/
+}
