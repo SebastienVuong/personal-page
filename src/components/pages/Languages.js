@@ -35,23 +35,23 @@ class Languages extends Component {
                     tasks: ["HTML5", "CSS3", "JavaScript", 
                                 "React", "jQuery", "Bootstrap", 
                                 "Pug (Jade)", "Aurelia"],
-                    logos: ["http://i.imgur.com/S86St7t.png", "http://i.imgur.com/0eiGxEY.png", "http://i.imgur.com/TQvHLDx.png",
-                                "http://i.imgur.com/WcaYSTT.png", "http://i.imgur.com/jEvTNpw.png", "http://i.imgur.com/ublBAiN.png",
-                                "http://i.imgur.com/0qdCGNs.png", "http://i.imgur.com/nTtEbHD.png"]
+                    logos: ["html5", "css3", "javascript",
+                                "react", "jquery", "bootstrap",
+                                "pug", "aurelia"]
                 },
                 {
                     title: "Back-End",
                     tasks: ["NodeJS", "Express", "MySQL", 
                                 "MatLab"],
-                    logos: ["http://i.imgur.com/XXa5GV2.png", "http://i.imgur.com/P32Jw8N.png", "http://i.imgur.com/k164vYL.png",
-                                "http://i.imgur.com/A8cyhte.png"]
+                    logos: ["nodejs", "express", "mysql",
+                                "matlab"]
                 },
                 {
                     title: "Tooling",
                     tasks: ["Git", "GitHub", "Webpack", 
                                 "Babel"],
-                    logos: ["http://i.imgur.com/6z35yxp.png", "http://i.imgur.com/fD8ShPU.png", "http://i.imgur.com/MERKgJG.png",
-                                "http://i.imgur.com/zQi8gvJ.png"]
+                    logos: ["git", "github", "webpack",
+                                "babel"]
                 }
             ]
         });
@@ -118,7 +118,7 @@ class Languages extends Component {
                                                 {entry.tasks.map((task,idx)=>
                                                     (<li key={task} className="entry-task">
                                                         <div className="logo">
-                                                            <img src={entry.logos[idx]} alt="logo"/>
+                                                            <img src={require(`../../images/${entry.logos[idx]}-logo.png`)} alt="logo"/>
                                                         </div>
                                                         <span className="logo-name">{task}</span>
                                                     </li>)
