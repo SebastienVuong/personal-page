@@ -10,7 +10,8 @@ class Projects extends Component {
     render() {
         return (
             <div>
-                Projects
+                Projects >
+                    Project cards : Dialogue APP | Personal Webpage | Games
             </div>
         );
     }

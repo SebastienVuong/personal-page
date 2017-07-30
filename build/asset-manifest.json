@@ -1,6 +1,20 @@
 {
-  "main.css": "static/css/main.8ad13812.css",
-  "main.css.map": "static/css/main.8ad13812.css.map",
-  "main.js": "static/js/main.4beaf2e9.js",
-  "main.js.map": "static/js/main.4beaf2e9.js.map"
+  "main.css": "static/css/main.1957dffd.css",
+  "main.css.map": "static/css/main.1957dffd.css.map",
+  "main.js": "static/js/main.459d2e44.js",
+  "main.js.map": "static/js/main.459d2e44.js.map",
+  "static/media/aurelia-logo.png": "static/media/aurelia-logo.6baa2e7f.png",
+  "static/media/avatar.jpg": "static/media/avatar.59b6caf9.jpg",
+  "static/media/babel-logo.png": "static/media/babel-logo.5e61d42f.png",
+  "static/media/background.jpg": "static/media/background.6dc59c49.jpg",
+  "static/media/bootstrap-logo.png": "static/media/bootstrap-logo.ef38030f.png",
+  "static/media/git-logo.png": "static/media/git-logo.d9adc981.png",
+  "static/media/javascript-logo.png": "static/media/javascript-logo.d12848b8.png",
+  "static/media/jquery-logo.png": "static/media/jquery-logo.b3c5133f.png",
+  "static/media/matlab-logo.png": "static/media/matlab-logo.cf286322.png",
+  "static/media/mysql-logo.png": "static/media/mysql-logo.07c28adf.png",
+  "static/media/nodejs-logo.png": "static/media/nodejs-logo.473c0ae2.png",
+  "static/media/pug-logo.png": "static/media/pug-logo.e21d810c.png",
+  "static/media/react-logo.png": "static/media/react-logo.38a0c307.png",
+  "static/media/webpack-logo.png": "static/media/webpack-logo.e32ad852.png"
 }

@@ -10,7 +10,7 @@ class Others extends Component {
     render() {
         return (
             <div>
-                Others
+                Others > Dragon Boat Team Canada | Modeling
             </div>
         );
     }

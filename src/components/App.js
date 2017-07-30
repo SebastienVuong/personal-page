@@ -29,7 +29,7 @@ class App extends Component {
                                     <defs>
                                       <pattern id="profilepict" x="0" y="0" width="1" height="1">
                                         <image width="100" height="100"
-                                               xlinkHref="http://i.imgur.com/mAomY7V.jpg"/>
+                                               xlinkHref={require(`../images/avatar.jpg`)}/>
                                       </pattern>
                                     </defs>
                                     <polygon points="1,50 25,93.3 75,93.3 99,50 75,6.7 25,6.7" fill="url(#profilepict)"/>

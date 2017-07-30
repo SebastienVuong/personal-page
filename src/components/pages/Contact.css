@@ -1,0 +1,93 @@
+.contact-entry {
+    border-color: lightyellow;
+    border-style: solid;
+    border-radius: 0vw;
+    margin: 3vw;
+    padding: 1vw;
+    padding-left: 3vw;
+    opacity: 0.7;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.contact-entry:hover {
+    background-color: black;
+    /*border-color: chartreuse;*/
+    opacity: 1;
+}
+
+.contact-entry:hover > span {
+    color: lightyellow;
+}
+
+.mailing-form {
+    margin: 3vw;
+    /*height: 29.47vw;*/
+    box-sizing: border-box;
+    /*border-color: lightyellow;*/
+    /*border-style: solid;*/
+    padding: 15px;
+    text-align: center;
+    /*border-radius: 8px;*/
+    background-color: dimgray;
+    color: lightyellow;
+    opacity: 0.8;
+    /*cursor: pointer;*/
+    animation-name: form-slide;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-and-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes form-slide {
+  0% {
+    margin-top: -12vw;
+    width: 14vw;
+    font-size: 0.6vw;
+    height: 5vw;
+  }
+  70% {
+    margin-top: 3vw;
+    width: 14vw;
+    font-size: 0.6vw;
+    height: 29.47vw;
+  }
+  100% {
+    width: 26.47vw;
+    font-size: 1.5vw;
+    height: 29.47vw;
+  }
+}
+
+.mailing-form > i {
+  color: lightyellow;
+  margin-left: 1vw;
+}
+
+.contact-entry {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.entry-icon {
+  font-size: 1.8em;
+  margin-right: 1vw;
+}
+
+.entry-icon > i {
+  color: powderblue;
+}
+
+.name-input, .email-input, .message-input {
+  width: 80%; 
+  height: 2vw;
+}
+
+.message-input {
+  height: 10vw;
+}
+
+.send-button {
+  width: 50%;
+  font-size: 0.8em;
+}

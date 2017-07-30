@@ -1,6 +1,5 @@
 body {
-    /*background-image: url('http://i.imgur.com/xsKmyIU.jpg');*/
-    background-image: url('https://scontent.fymy1-1.fna.fbcdn.net/v/t31.0-8/11130515_10153377355858832_8176979310869018439_o.jpg?oh=de56bba9448dcea5f6bc68480f7a2eda&oe=59D9C8EC');
+    background-image: url('./images/background.jpg');
     background-repeat: no-repeat;
     min-height: 100vh;
     /*max-width: 950px;*/

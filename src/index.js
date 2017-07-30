@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import ReactGA from 'react-ga';
 import { Router, Route, IndexRoute, hashHistory } from 'react-router';
 import App from './components/App';
 import Home from './components/pages/Home';
@@ -11,9 +12,15 @@ import Contact from './components/pages/Contact';
 
 import './index.css';
 
+ReactGA.initialize('UA-103579871-1');
+
+function logPageView() {
+  ReactGA.set({ page: window.location.href });
+  ReactGA.pageview(window.location.href);
+}
 
 const routes = (
-    <Router history={hashHistory}>
+    <Router history={hashHistory} onUpdate={logPageView}>
         <Route path="/" component={App}>
             <IndexRoute component={Home}/>
             <Route path="/aboutme" component={AboutMe}/>

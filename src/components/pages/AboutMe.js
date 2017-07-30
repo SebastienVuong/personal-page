@@ -176,12 +176,7 @@ class AboutMe extends Component {
                                 {content.slice(0,this.state.currentSection).map((section,idx)=>
                                     (<div key={idx} className="section-title pre-content link-title" onClick={that._handleClick.bind(this,idx)}>            
                                         {section.title.toUpperCase()}
-                                        <br/>
-                                        {/*<button 
-                                            className="section-extension"
-                                            onClick={that._handleClick.bind(this,idx)}
-                                        > [...] </button>*/}
-                                        <hr/>
+                                        <br/><hr/>
                                     </div>)
                                 )}
                             </div>)
@@ -214,12 +209,7 @@ class AboutMe extends Component {
                                 {content.slice(this.state.currentSection+1,content.length).map((section,idx)=>
                                     (<div key={idx} className="section-title post-content link-title" onClick={that._handleClick.bind(this,idx+this.state.currentSection+1)}>            
                                         {section.title.toUpperCase()}
-                                        <br/>
-                                        {/*<button 
-                                            className="section-extension"
-                                            onClick={that._handleClick.bind(this,idx+this.state.currentSection+1)}
-                                        > [...] </button>*/}
-                                        <hr/>
+                                        <br/><hr/>
                                     </div>)
                                 )}
                             </div>)
@@ -230,12 +220,7 @@ class AboutMe extends Component {
                                 {content.map((section,idx)=>
                                     (<div key={section.title} className="section-title collapsed-content link-title" onClick={that._handleClick.bind(this,idx)}>            
                                         {section.title.toUpperCase()}
-                                        <br/>
-                                        {/*<button 
-                                            className="section-extension"
-                                            onClick={that._handleClick.bind(this,idx)}
-                                        > [...] </button>*/}
-                                        <hr/>
+                                        <br/><hr/>
                                     </div>)
                                 )}
                             </div>)

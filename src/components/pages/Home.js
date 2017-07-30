@@ -14,7 +14,7 @@ class Home extends Component {
     render() {
         return (
             <div className="homescreen-content">
-                Home
+                
             </div>
         );
     }
